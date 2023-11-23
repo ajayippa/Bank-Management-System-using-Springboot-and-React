@@ -1,0 +1,67 @@
+.reportDropDown {
+    right: 735px;
+}
+
+.adminstrationDropDown {
+    right: 875px;
+}
+
+.logoutDropDown {
+  right : 10px;
+}
+
+.cornerRight {
+    padding-left : 660px;
+}
+
+//table properties
+
+  body {
+    margin: 0;
+  }
+  
+  /* Center the table on the page */
+  .table-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Style the table */
+  .table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    background-color: #ffffff;
+  }
+  
+  /* Style the table header */
+  .table th {
+    border: 1px solid #e2e8f0;
+    padding: 12px;
+    text-align: left;
+    background-color: #f3f4f6;
+    font-weight: 600;
+  }
+  
+  /* Style the table body rows */
+  .table td {
+    border: 1px solid #e2e8f0;
+    padding: 12px;
+    text-align: left;
+  }
+
+  .table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Grey color for even rows */
+  }
+  
+  .table tbody tr:nth-child(odd) {
+    background-color: #fcfcfc; /* Slightly different shade of white for odd rows */
+  }
+  
+  /* Style the error message */
+  .error {
+    color: red;
+    margin-top: 1rem;
+  }
+  
